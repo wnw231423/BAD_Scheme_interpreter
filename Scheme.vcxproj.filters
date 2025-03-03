@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Buffer">
+      <UniqueIdentifier>{0db80613-16b3-44bd-844a-79e68c6141b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Buffer">
+      <UniqueIdentifier>{4b52b4af-efca-4043-a40b-e7c6ac64eca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\SchemeReader">
+      <UniqueIdentifier>{0bd07273-fcbc-45d9-b157-3a32bb04b343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SchemeReader">
+      <UniqueIdentifier>{6c97483d-c5a1-4c85-b57f-f90419d312aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\SchemeObjects">
+      <UniqueIdentifier>{e8f63208-208a-4c0c-a696-21c41a845324}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SchemeObjects">
+      <UniqueIdentifier>{2a5d7f76-3d20-447d-bd37-421fbb0a4a9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Test">
+      <UniqueIdentifier>{c9ee5899-bbe6-4ef0-a7d6-29a957c14d1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\SchemeBuiltin">
+      <UniqueIdentifier>{296fb293-fbe6-41d7-a6fb-ce613681c7eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SchemeBuiltin">
+      <UniqueIdentifier>{d0fed9b4-4c4b-440c-b386-5cb2d3ba4e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Scheme">
+      <UniqueIdentifier>{3cb2cdd4-23b6-4e04-94f7-547bbe423746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Scheme">
+      <UniqueIdentifier>{b5ce0f34-2f23-414b-b3f5-5edf972a1b17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Tokenizer">
+      <UniqueIdentifier>{69ca6e43-c4e1-4782-b224-c3c133285e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Tokenizer">
+      <UniqueIdentifier>{36212935-7aff-40fb-8dad-aff3c3dae55b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tokenizer.h">
+      <Filter>头文件\Tokenizer</Filter>
+    </ClCompile>
+    <ClCompile Include="Tokenizer.cpp">
+      <Filter>源文件\Tokenizer</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>源文件\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="SchemeReader.cpp">
+      <Filter>源文件\SchemeReader</Filter>
+    </ClCompile>
+    <ClCompile Include="SchemeObj.h">
+      <Filter>头文件\SchemeObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Nil.cpp">
+      <Filter>源文件\SchemeObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="SchemePair.cpp">
+      <Filter>源文件\SchemeObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="SchemeSymbol.cpp">
+      <Filter>源文件\SchemeObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="InputReader.cpp">
+      <Filter>源文件\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="SchemeNum.cpp">
+      <Filter>源文件\SchemeObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="SchemeBuiltin.h">
+      <Filter>头文件\SchemeBuiltin</Filter>
+    </ClCompile>
+    <ClCompile Include="SchemeBuiltin.cpp">
+      <Filter>源文件\SchemeBuiltin</Filter>
+    </ClCompile>
+    <ClCompile Include="SchemeBoolean.cpp">
+      <Filter>源文件\SchemeObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="SchemeObj.cpp">
+      <Filter>源文件\SchemeObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.h">
+      <Filter>头文件\Scheme</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.cpp">
+      <Filter>源文件\Scheme</Filter>
+    </ClCompile>
+    <ClCompile Include="Scheme.cpp">
+      <Filter>源文件\Scheme</Filter>
+    </ClCompile>
+    <ClCompile Include="SchemeString.cpp">
+      <Filter>源文件\SchemeObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="LambdaProcedure.cpp">
+      <Filter>源文件\SchemeObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="BuiltinProcedure.cpp">
+      <Filter>源文件\SchemeObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecialProcedure.cpp">
+      <Filter>源文件\SchemeObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Buffer.h">
+      <Filter>头文件\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="SchemeReader.h">
+      <Filter>头文件\SchemeReader</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstValues.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Nil.h">
+      <Filter>头文件\SchemeObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="SchemePair.h">
+      <Filter>头文件\SchemeObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="SchemeSymbol.h">
+      <Filter>头文件\SchemeObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="InputReader.h">
+      <Filter>头文件\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="SchemeNum.h">
+      <Filter>头文件\SchemeObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="SchemeBoolean.h">
+      <Filter>头文件\SchemeObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scheme.h">
+      <Filter>头文件\Scheme</Filter>
+    </ClInclude>
+    <ClInclude Include="BuiltinProcedure.h">
+      <Filter>头文件\SchemeObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedure.h">
+      <Filter>头文件\SchemeObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="LambdaProcedure.h">
+      <Filter>头文件\SchemeObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="SchemeString.h">
+      <Filter>头文件\SchemeObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialProcedure.h">
+      <Filter>头文件\SchemeObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="test.scm" />
+    <None Include="fib.scm" />
+  </ItemGroup>
+</Project>
